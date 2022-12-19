@@ -5,11 +5,33 @@
     <Nullable>enable</Nullable>
     <Description>Nacos configfilter, can be used to handle config value reference via ${config.key} pattern</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <Version>1.0.5</Version>
+    <Authors>Serverride</Authors>
+    <Copyright>Apache-2.0</Copyright>
+    <PackageProjectUrl>https://github.com/mobwiz/nacos-extension</PackageProjectUrl>
+    <PackageIcon>120x120.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mobwiz/nacos-extension</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>nacos;nacos-sdk;nacos-config-filter;</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+ 
+  <ItemGroup>
     <PackageReference Include="nacos-sdk-csharp" Version="1.3.4" />
   </ItemGroup>
-
+ 
+  <ItemGroup>
+    <None Update="120x120.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

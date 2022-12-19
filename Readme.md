@@ -29,6 +29,7 @@ Another configuration reference to this config like this:
 Install via nuget
 
 ```shell
+dotnet add Nacos.ConfigFilter.Reference --version 1.0.5
 ```
 
 ## Usage
