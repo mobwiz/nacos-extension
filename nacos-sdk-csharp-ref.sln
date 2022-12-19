@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nacos.ConfigFilter.Reference", "src\Nacos.ConfigFilter.Reference\Nacos.ConfigFilter.Reference.csproj", "{B07DFCBD-49EF-43AF-A144-32404D9ECE7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B07DFCBD-49EF-43AF-A144-32404D9ECE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07DFCBD-49EF-43AF-A144-32404D9ECE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07DFCBD-49EF-43AF-A144-32404D9ECE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07DFCBD-49EF-43AF-A144-32404D9ECE7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F835B8A-04C1-44ED-BEF5-BDDD599B97D5}
+	EndGlobalSection
+EndGlobal
